@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog</title>
+    <style>
+        body{
+            margin: 0%;
+        }
+        .header h1 {
+            margin-top: 0%;
+            text-align: center;
+            padding: 50px;
+            background-color: orange;
+            color: white;
+            margin-bottom: 0%;
+        }
+        .navigation{
+            margin-top: 0%;
+            background-color: rgba(243, 219, 230, 0.712);
+        }
+        .navigation button h2 {
+            display: inline-block;
+            margin:10px;
+            padding:5px;
+        }
+        .content{
+            margin-left: 50px;
+            font-size: 25px;
+        }
+
+        .left{
+            float: left;
+            width: 50%;
+        }
+    
+        .right{
+            width: 30%;
+            background-color: rgb(128, 117, 117);
+            padding: 20px;
+            padding-bottom: 40px;
+            margin-top: 20px;
+            margin-right: 100px;
+            float: right;
+        }
+        #footer{
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(41, 35, 35);
+            color: white;
+            text-align: center;            
+        }
+        @media only screen and (max-width: 800px) {
+            
+            .left{
+                float:none;
+            }
+            .right{
+                float :left;
+                margin-bottom:50px;
+                width: 80%;
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Siddam Vinay's Blog</h1>
+    </div>
+
+    <div class="navigation">
+        <button> <h2>Homepage </h2></button>
+        <button> <h2>Search </h2></button>
+        <button> <h2>Contact </h2></button>
+    </div>
+
+    <div class ="content" >
+        <div class="left">
+            <p>
+                Hello This is my blog site .Iam Vinay Siddam from National Institute of Technology Warangal 
+            </p>
+            <p>
+                My hobbies are playing Basketball Reading books .These are the things you find in my campus
+            </p>
+            <ul>
+                <li>Departments</li>
+                <li>Canteen</li>
+                <li>Food Street</li>
+                <li>Hostels</li>
+                <li>Time Squares</li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <h1>FeedbackForm</h1>
+            <label>Name</label>
+            <input type="text" placeholder="Name"> <br>
+            <label >Comment</label>
+            <input type="text" placeholder="Enter ur comment" size="50"><br>
+            <input type="button" value="Submit">
+        </div>
+        
+    </div>
+
+    <div id="footer">
+        <h3>Copyright &copy; Siddam</h3>
+    </div>
+</body>
+</html>
